@@ -1,0 +1,111 @@
+[
+  {
+    "text": "The launch date is 2026-04-12.",
+    "wing": "demo-product",
+    "room": "launch",
+    "source": "demo-seed",
+    "created_at": "2026-03-01T09:00:00+00:00",
+    "valid_from": "2026-03-01T09:00:00+00:00"
+  },
+  {
+    "text": "The launch moved to 2026-05-20.",
+    "wing": "demo-product",
+    "room": "launch",
+    "source": "demo-seed",
+    "created_at": "2026-03-18T09:00:00+00:00",
+    "valid_from": "2026-03-18T09:00:00+00:00"
+  },
+  {
+    "text": "The public launch checklist now requires status page verification before release.",
+    "wing": "demo-product",
+    "room": "launch",
+    "source": "demo-seed",
+    "created_at": "2026-03-22T10:30:00+00:00",
+    "valid_from": "2026-03-22T10:30:00+00:00"
+  },
+  {
+    "text": "First confirm the release branch, then verify the status page, then publish the rollout note.",
+    "wing": "demo-product",
+    "room": "launch",
+    "memory_type": "procedural",
+    "source": "demo-seed",
+    "created_at": "2026-03-22T11:00:00+00:00",
+    "valid_from": "2026-03-22T11:00:00+00:00"
+  },
+  {
+    "text": "The customer support hub is in Lisbon.",
+    "wing": "demo-customer",
+    "room": "support",
+    "source": "demo-seed",
+    "created_at": "2026-03-05T08:00:00+00:00",
+    "valid_from": "2026-03-05T08:00:00+00:00"
+  },
+  {
+    "text": "The customer support hub is in Porto.",
+    "wing": "demo-customer",
+    "room": "support",
+    "source": "demo-seed",
+    "created_at": "2026-03-27T08:30:00+00:00",
+    "valid_from": "2026-03-27T08:30:00+00:00"
+  },
+  {
+    "text": "Qwen3 8B is the default local model on this CPU-only host.",
+    "wing": "demo-ops",
+    "room": "models",
+    "source": "demo-seed",
+    "created_at": "2026-03-10T07:45:00+00:00",
+    "valid_from": "2026-03-10T07:45:00+00:00"
+  },
+  {
+    "text": "Qwen3 14B is reserved for quality mode because latency is much higher on CPU.",
+    "wing": "demo-ops",
+    "room": "models",
+    "source": "demo-seed",
+    "created_at": "2026-03-10T08:00:00+00:00",
+    "valid_from": "2026-03-10T08:00:00+00:00"
+  },
+  {
+    "text": "If the local model is slow or unavailable, switch to deterministic synthesis and keep retrieval explainability enabled.",
+    "wing": "demo-ops",
+    "room": "runtime",
+    "memory_type": "procedural",
+    "source": "demo-seed",
+    "created_at": "2026-03-15T12:15:00+00:00",
+    "valid_from": "2026-03-15T12:15:00+00:00"
+  },
+  {
+    "text": "Use SearXNG as the local web discovery path before introducing external search APIs.",
+    "wing": "demo-research",
+    "room": "search",
+    "memory_type": "reference",
+    "source": "demo-seed",
+    "created_at": "2026-03-11T13:00:00+00:00",
+    "valid_from": "2026-03-11T13:00:00+00:00"
+  },
+  {
+    "text": "Rotate feature flag atlas_alpha in the search stack and reload nginx after the config change.",
+    "wing": "demo-ops",
+    "room": "runtime",
+    "memory_type": "procedural",
+    "source": "demo-seed",
+    "created_at": "2026-03-17T13:30:00+00:00",
+    "valid_from": "2026-03-17T13:30:00+00:00"
+  },
+  {
+    "text": "The office was in Lisbon until 2026-02-01.",
+    "wing": "demo-company",
+    "room": "hq",
+    "source": "demo-seed",
+    "created_at": "2026-01-01T09:00:00+00:00",
+    "valid_from": "2026-01-01T09:00:00+00:00",
+    "valid_until": "2026-02-01T00:00:00+00:00"
+  },
+  {
+    "text": "The office moved to Porto.",
+    "wing": "demo-company",
+    "room": "hq",
+    "source": "demo-seed",
+    "created_at": "2026-02-01T09:00:00+00:00",
+    "valid_from": "2026-02-01T09:00:00+00:00"
+  }
+]

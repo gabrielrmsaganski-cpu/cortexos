@@ -1,0 +1,21 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: cortexos-qdrant
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6333:6333"
+      - "127.0.0.1:6334:6334"
+    volumes:
+      - ./ops/qdrant/data:/qdrant/storage
+
+  searxng:
+    image: searxng/searxng:latest
+    container_name: cortexos-searxng
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8787:8080"
+    environment:
+      - SEARXNG_BASE_URL=http://127.0.0.1:8787/
+    volumes:
+      - ./ops/searxng/settings.yml:/etc/searxng/settings.yml:ro

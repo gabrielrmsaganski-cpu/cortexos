@@ -1,0 +1,16 @@
+[Unit]
+Description=CortexOS API
+After=network-online.target docker.service ollama.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=saganski
+WorkingDirectory=/home/saganski/workspace/experiments/cortexos
+EnvironmentFile=/home/saganski/workspace/experiments/cortexos/.env
+ExecStart=/home/saganski/.local/bin/uv run cortexos-api
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
