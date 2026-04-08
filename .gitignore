@@ -16,6 +16,9 @@ logs/
 
 ui/node_modules/
 ui/dist/
+ui/*.tsbuildinfo
+ui/*.d.ts
+ui/*.js
 
 .DS_Store
 Thumbs.db
