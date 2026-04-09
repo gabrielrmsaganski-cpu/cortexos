@@ -83,6 +83,10 @@ Short GitHub-friendly product intro:
 - `1080p`
 - release asset: `CortexOS-Intro-1080p.mp4`
 
+## Presentation Asset
+
+![CortexOS social preview](screenshots/cortexos-social-preview.png)
+
 ## Screenshots
 
 Generate screenshots from the running local instance:
@@ -95,6 +99,7 @@ cd /home/saganski/workspace/experiments/cortexos
 Expected outputs:
 
 - `screenshots/cortexos-intro-cover.png`
+- `screenshots/cortexos-social-preview.png`
 - `screenshots/dashboard.png`
 - `screenshots/query.png`
 - `screenshots/explain.png`
