@@ -1,5 +1,10 @@
 # CortexOS
 
+[![Release](https://img.shields.io/github/v/release/gabrielrmsaganski-cpu/cortexos?display_name=tag)](https://github.com/gabrielrmsaganski-cpu/cortexos/releases/tag/v0.1.0)
+[![Release Date](https://img.shields.io/github/release-date/gabrielrmsaganski-cpu/cortexos)](https://github.com/gabrielrmsaganski-cpu/cortexos/releases/tag/v0.1.0)
+[![License](https://img.shields.io/github/license/gabrielrmsaganski-cpu/cortexos)](LICENSE)
+[![Intro Video](https://img.shields.io/badge/intro-video_1080p-0b57d0?logo=github)](https://github.com/gabrielrmsaganski-cpu/cortexos/releases/download/v0.1.0/CortexOS-Intro-1080p.mp4)
+
 ## CortexOS - Explainable Memory OS for AI Agents
 
 CortexOS is a local-first memory operating system for AI agents that need more
