@@ -73,6 +73,16 @@ Then open:
 
 - `http://127.0.0.1:8011`
 
+## Watch the Intro
+
+[![Watch the CortexOS intro](screenshots/cortexos-intro-cover.png)](https://github.com/gabrielrmsaganski-cpu/cortexos/releases/download/v0.1.0/CortexOS-Intro-1080p.mp4)
+
+Short GitHub-friendly product intro:
+
+- `13.76s`
+- `1080p`
+- release asset: `CortexOS-Intro-1080p.mp4`
+
 ## Screenshots
 
 Generate screenshots from the running local instance:
@@ -84,6 +94,7 @@ cd /home/saganski/workspace/experiments/cortexos
 
 Expected outputs:
 
+- `screenshots/cortexos-intro-cover.png`
 - `screenshots/dashboard.png`
 - `screenshots/query.png`
 - `screenshots/explain.png`
