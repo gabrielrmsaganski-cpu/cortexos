@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CortexOS Discussions
+    url: https://github.com/gabrielrmsaganski-cpu/cortexos/discussions
+    about: Use discussions for architecture, usage questions, and open-ended product ideas.
+  - name: Security Policy
+    url: https://github.com/gabrielrmsaganski-cpu/cortexos/security/policy
+    about: Use the security policy for vulnerability reporting guidance.

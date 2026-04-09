@@ -2,6 +2,7 @@
 
 [![Release](https://img.shields.io/github/v/release/gabrielrmsaganski-cpu/cortexos?display_name=tag)](https://github.com/gabrielrmsaganski-cpu/cortexos/releases/tag/v0.1.0)
 [![Release Date](https://img.shields.io/github/release-date/gabrielrmsaganski-cpu/cortexos)](https://github.com/gabrielrmsaganski-cpu/cortexos/releases/tag/v0.1.0)
+[![CI](https://img.shields.io/github/actions/workflow/status/gabrielrmsaganski-cpu/cortexos/ci.yml?branch=main&label=ci)](https://github.com/gabrielrmsaganski-cpu/cortexos/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/gabrielrmsaganski-cpu/cortexos)](LICENSE)
 [![Intro Video](https://img.shields.io/badge/intro-video_1080p-0b57d0?logo=github)](https://github.com/gabrielrmsaganski-cpu/cortexos/releases/download/v0.1.0/CortexOS-Intro-1080p.mp4)
 
@@ -133,6 +134,14 @@ local LLM is slow or unavailable.
 - [Operations UI](docs/operations-ui.md)
 - [Screenshots Guide](docs/screenshots-guide.md)
 - [Release Plan](docs/release-plan.md)
+
+## Community
+
+- [Contributing Guide](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md)
+- [Support](SUPPORT.md)
+- [Discussions](https://github.com/gabrielrmsaganski-cpu/cortexos/discussions)
 
 ## Honest Limitations
 

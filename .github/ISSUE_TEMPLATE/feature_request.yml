@@ -1,0 +1,44 @@
+name: Feature request
+description: Propose a focused improvement for CortexOS
+title: "[feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the problem first, then the proposed change.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: The current explain view does not make temporal penalties visible...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: Add a retrieval score breakdown panel that...
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Tradeoffs and alternatives
+      description: Mention complexity, UX cost, or alternative designs.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Retrieval / ranking
+        - Explainability
+        - Memory lifecycle
+        - Ingestion
+        - Product UI
+        - Operations
+        - Developer experience
+        - Documentation
+    validations:
+      required: true

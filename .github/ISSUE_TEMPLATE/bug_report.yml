@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a reproducible defect in CortexOS
+title: "[bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please keep this focused and reproducible.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and the expected behavior.
+      placeholder: Query Studio returned a 500 when...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How do we reproduce it?
+      description: Include exact steps, commands, or API calls.
+      placeholder: |
+        1. Start CortexOS with...
+        2. Open...
+        3. Submit...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or errors
+      description: Paste the exact traceback, response body, or service log.
+      render: shell
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, Python version, browser, and model mode when relevant.
+      placeholder: Ubuntu 24.04, Python 3.12, Chrome 135, balanced mode
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Backend API
+        - Frontend UI
+        - Retrieval / ranking
+        - Ingestion
+        - Operations / deployment
+        - Documentation
+    validations:
+      required: true
